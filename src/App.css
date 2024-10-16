@@ -1,0 +1,64 @@
+body{
+  background-color: rgb(37, 37, 103);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+}
+
+.box {
+  padding: 20px; /* Adjust padding for inner spacing */
+  width: 350px; /* Increased width for better display */
+  background-color: brown;
+  position: relative; /* Makes it easier to control child positioning */
+  text-align: center; /* Center content horizontally */
+}
+
+.box h3{
+  color: white;
+  margin-bottom: 20px; /* Add some space below the heading */
+  text-align: center; /* Center the text horizontally */
+  font-weight: bold; /* Make the text bold */
+}
+
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+.boxIn{
+  display: flex;
+}
+
+.boxIn input{
+  flex-basis: 80%;
+  padding-left: 5px;
+}
+
+.boxIn button{
+  flex-basis: 20%;
+  padding: 10px 0px;
+}
+
+.passLength{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0px;
+}
+
+.passLength label{
+  color: white;
+}
+
+.passLength input{
+  width: 60px;
+  padding: 10px 0px;
+
+}
+
+.btn{
+  width: 100%;
+  padding: 10px 0px;
+}

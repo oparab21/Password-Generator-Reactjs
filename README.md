@@ -9,8 +9,6 @@ A simple and user-friendly password generator built using React.js. This applica
 - Copy the generated password to the clipboard with a single click.
 - Responsive design for seamless usage on mobile and desktop devices.
 
-## Demo
-![Password Generator Demo](link-to-your-demo-screenshot-or-gif)  <!-- Replace with an actual link to your demo image -->
 
 ## Technologies Used
 - React.js
